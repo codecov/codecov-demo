@@ -1,6 +1,9 @@
 name: API workflow
 
-on: [push, pull_request]
+on:
+  push:
+    paths:
+      - 'api/**'
 
 jobs:
   build:
