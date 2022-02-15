@@ -31,4 +31,23 @@ describe('Calculator test suite', () => {
     calculator.delete();
     expect(calculator.currentOperand).toBe('1');
   })
+
+  test('test operation', () => {
+    const calculator = new calc.Calculator();
+    calculator.chooseOperation('+');
+    expect(calculator.operation).toBeUndefined();
+
+    calculator.appendNumber(1);
+    calculator.appendNumber(2);
+    calculator.chooseOperation('+');
+    expect(calculator.currentOperand).toBe('');
+    expect(calculator.operation).toBe('+');
+    expect(calculator.previousOperand).toBe('12');
+
+    calculator.appendNumber(3);
+    calculator.appendNumber(4);
+    expect(calculator.currentOperand).toBe('34');
+    expect(calculator.operation).toBe('+');
+    expect(calculator.previousOperand).toBe('12');
+  })
 })
