@@ -1,9 +1,6 @@
 name: API workflow
 
-on:
-  push:
-    paths:
-      - 'api/**'
+on: [push, pull_request]
 
 jobs:
   build:
@@ -23,6 +20,3 @@ jobs:
       run: pytest --cov --cov-report xml .
     - name: Upload coverage reports to Codecov with GitHub Action
       uses: codecov/codecov-action@v2
-      with:
-        flags: backend
-
