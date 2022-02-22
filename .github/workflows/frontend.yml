@@ -1,9 +1,6 @@
 name: Frontend workflow
 
-on:
-  push:
-    paths:
-      - 'web/**'
+on: [push, pull_request]
 
 jobs:
   build:
@@ -23,5 +20,3 @@ jobs:
       run: npm run test
     - name: Upload coverage reports to Codecov with GitHub Action
       uses: codecov/codecov-action@v2
-      with:
-        flags: frontend
