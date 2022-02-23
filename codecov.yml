@@ -1,0 +1,19 @@
+flag_management:
+  default_rules:
+    carryforward: true
+  individual_flags:
+    - name: backend
+      paths:
+        - api/
+      statuses:
+        - type: project
+          target: 100%
+          threshold: 1%
+    - name: frontend
+      paths:
+        - web/
+      statuses:
+        - type: project
+          target: auto
+          threshold: 1%
+
