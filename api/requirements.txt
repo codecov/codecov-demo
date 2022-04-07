@@ -5,25 +5,25 @@ anaconda-client==1.7.2
 anaconda-navigator==1.10.0
 anaconda-project==0.8.3
 argh==0.26.2
-argon2-cffi @ file:///C:/ci/argon2-cffi_1596828585465/work
-asn1crypto @ file:///tmp/build/80754af9/asn1crypto_1596577642040/work
+argon2-cffi
+asn1crypto 
 astor==0.8.1
-astroid @ file:///C:/ci/astroid_1592487315634/work
+astroid 
 astropy==4.0.2
 astunparse==1.6.3
 async-generator==1.10
 atomicwrites==1.4.0
-attrs @ file:///tmp/build/80754af9/attrs_1604765588209/work
-autopep8 @ file:///tmp/build/80754af9/autopep8_1596578164842/work
-Babel @ file:///tmp/build/80754af9/babel_1605108370292/work
+attrs 
+autopep8 
+Babel 
 backcall==0.2.0
 backports.functools-lru-cache==1.6.1
 backports.shutil-get-terminal-size==1.0.0
 backports.tempfile==1.0
 backports.weakref==1.0.post1
 base58==2.1.0
-bcrypt @ file:///C:/ci/bcrypt_1597936263757/work
-beautifulsoup4 @ file:///tmp/build/80754af9/beautifulsoup4_1601924105527/work
+bcrypt 
+beautifulsoup4 s
 bitarray @ file:///C:/ci/bitarray_1605065210072/work
 bkcharts==0.2
 bleach @ file:///tmp/build/80754af9/bleach_1600439572647/work
