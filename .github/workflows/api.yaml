@@ -19,4 +19,8 @@ jobs:
     - name: Run tests and collect coverage
       run: pytest --cov .
     - name: Upload coverage reports to Codecov with GitHub Action
-      uses: codecov/codecov-action@v3.1.0
+      run: |
+        curl -Os https://uploader.codecov.io/latest/linux/codecov
+        chmod +x codecov
+        ./codecov -t ${97947ab9-21a2-4a1e-ae4f-1c09cb5a11a7}
+      # uses: codecov/codecov-action@v3.1.0
