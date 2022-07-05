@@ -12,3 +12,8 @@ class Calculator:
         if y == 0:
             return 'Cannot divide by 0'
         return x * 1.0 / y
+
+    def pot_qt(x):
+        if x == 0:
+            return 1
+        return x * x
