@@ -1,7 +1,7 @@
-*.py[oc]
-__pycache__
-.coverage
-.pytest_cache/
-coverage.xml
-node_modules/
-coverage/
+# *.py[oc]
+# __pycache__
+# .coverage
+# .pytest_cache/
+# coverage.xml
+# node_modules/
+# coverage/
