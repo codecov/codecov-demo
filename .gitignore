@@ -5,3 +5,7 @@ __pycache__
 coverage.xml
 node_modules/
 coverage/
+bin/
+lib/ 
+pyvenv.*
+.gitignore
