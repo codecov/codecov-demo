@@ -5,3 +5,6 @@ __pycache__
 coverage.xml
 node_modules/
 coverage/
+/.idea/
+/venv/
+/get-pip.py
