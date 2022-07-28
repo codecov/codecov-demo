@@ -20,9 +20,9 @@ jobs:
       run: pytest --cov-report=xml --cov .
     - name: Upload coverage reports to Codecov with GitHub Action
       uses: codecov/codecov-action@v3
-
     - name: Download codecov binary
       run: curl -Os https://uploader.codecov.io/latest/linux/codecov
-
+    - name: Turn the binary executable
+      run: chmod +x codecov
     - name: Upload coverage reports to Codecov with GitHub Action via codecov binary
-      run: chmod +x codecov ./codecov
+      run:  ./codecov
