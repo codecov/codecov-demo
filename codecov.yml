@@ -2,7 +2,7 @@ coverage:
   status:
     project:
       default:
-        target: 97%
+        target: 100%
         threshold: 1%
 ignore:
     - "api/app.py"
