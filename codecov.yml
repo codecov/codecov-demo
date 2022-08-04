@@ -6,3 +6,4 @@ coverage:
         threshold: 1%
 ignore:
     - "api/app.py"
+    
