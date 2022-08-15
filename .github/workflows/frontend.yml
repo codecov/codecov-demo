@@ -20,3 +20,5 @@ jobs:
       run: npm run test
     - name: Upload coverage reports to Codecov with GitHub Action
       uses: codecov/codecov-action@v2
+      with:
+        flags: frontend
