@@ -1,3 +1,4 @@
+#Class for the Calculator application
 class Calculator:
     def add(x, y):
         return x + y
