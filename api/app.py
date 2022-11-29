@@ -23,6 +23,10 @@ def multiply():
 def divide():
     return operation('divide', 2)
 
+@app.route('/api/modulo', methods=['POST'])
+def modulo():
+    return operation('modulo', 2)
+
 def operation(method, num_factors):
     factors = []
     if num_factors == 2:
@@ -30,6 +34,8 @@ def operation(method, num_factors):
         factors.append(float(request.json.get('y')))
 
     return str(getattr(Calculator, method)(*factors))
+
+
 
 
 app.run(host='0.0.0.0', port=8080)
