@@ -1,0 +1,19 @@
+attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1671632566681/work
+click @ file:///home/conda/feedstock_root/build_artifacts/click_1666798198223/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
+coverage @ file:///Users/runner/miniforge3/conda-bld/coverage_1673418023707/work
+exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1671811474537/work
+Flask @ file:///home/conda/feedstock_root/build_artifacts/flask_1660054669620/work
+importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1672612343532/work
+iniconfig @ file:///home/conda/feedstock_root/build_artifacts/iniconfig_1673103042956/work
+itsdangerous @ file:///home/conda/feedstock_root/build_artifacts/itsdangerous_1648147185463/work
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1654302431367/work
+MarkupSafe @ file:///Users/runner/miniforge3/conda-bld/markupsafe_1666770315253/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1670530880680/work
+pluggy @ file:///home/conda/feedstock_root/build_artifacts/pluggy_1667232663820/work
+pytest==7.2.0
+pytest-cov @ file:///home/conda/feedstock_root/build_artifacts/pytest-cov_1664412836798/work
+toml @ file:///home/conda/feedstock_root/build_artifacts/toml_1604308577558/work
+tomli @ file:///home/conda/feedstock_root/build_artifacts/tomli_1644342247877/work
+Werkzeug @ file:///home/conda/feedstock_root/build_artifacts/werkzeug_1660053523487/work
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1669453021653/work
