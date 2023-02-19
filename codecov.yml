@@ -13,6 +13,4 @@ component_management:
     - component_id: api  # this is an identifier that should not be changed
       name: api  # this is a display name, and can be changed freely
       paths:
-        - apigit add .
-git commit -m 'step4: add Codecov Component'
-git push origin step4
+        - api
