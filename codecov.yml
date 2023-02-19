@@ -1,3 +1,21 @@
+codecov:
+  max_report_age: 30
+  notify:
+    wait_for_ci: false
+github_checks:
+  annotations: false
+coverage:
+  status:
+    project:
+      default:
+        # basic
+        target: auto
+        threshold: 0%
+        base: auto
+comment:
+  layout: "reach, diff, flags, files"
+  behavior: default
+
 component_management:
   individual_components:
     - component_id: api-calculator  # this is an identifier that should not be changed
@@ -8,3 +26,4 @@ component_management:
       name: smiles  # this is a display name, and can be changed freely
       paths:
         - api/smiles/
+
