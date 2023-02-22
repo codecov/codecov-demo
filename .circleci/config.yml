@@ -16,8 +16,7 @@ jobs:
           name: Run tests and collect coverage
           command: pytest --cov api/
       - codecov/upload
-          flags: 
-            - backend
+          flags:backend
   test-frontend:
     docker:
       - image: cimg/node:17.6.0
@@ -30,8 +29,7 @@ jobs:
           name: Run tests and collect coverage
           command: cd web && npm run test
       - codecov/upload
-          flags: 
-            - frontend
+          flags:frontend
 
 workflows:
   version: 2.1
