@@ -28,6 +28,11 @@ def divide():
     return operation('divide', 2)
 
 
+@app.route('/api/mod', methods=['POST'])
+def mod():
+    return operation('mod', 2)
+
+
 def operation(method, num_factors):
     factors = []
     if num_factors == 2:
