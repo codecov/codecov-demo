@@ -1,7 +1,7 @@
 attrs==22.2.0
 click==8.0.4
 coverage==6.2
-dataclasses==0.8
+dataclasses==0.6
 Flask==2.0.3
 importlib-metadata==4.8.3
 iniconfig==1.1.1
