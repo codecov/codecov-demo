@@ -4,3 +4,13 @@ coverage:
       default:
         target: 100%
         threshold: 1%
+
+comment:
+  layout: "header, diff, flags, components"
+
+component_management:
+  individual_components:
+    - component_id: api  # this is an identifier that should not be changed
+      name: api  # this is a display name, and can be changed freely
+      paths:
+        - api
