@@ -1,4 +1,4 @@
-name: API workflow
+name: API workflow check
 
 on: [push, pull_request]
 
