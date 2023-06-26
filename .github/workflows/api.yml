@@ -1,5 +1,7 @@
 name: API workflow
-
+env:
+  codecov_token: "2fe11169-9855-4e97-8c31-94d1252c1b0d"
+  
 on: [push, pull_request]
 
 jobs:
