@@ -1,6 +1,6 @@
 name: API workflow
 env:
-  codecov_token: "2fe11169-9855-4e97-8c31-94d1252c1b0d"
+  codecov_token: "541aca7f-f26e-4f29-8a7c-9d2c523d0b9a"
   
 on: [push, pull_request]
 
