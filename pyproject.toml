@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "codecov-demo"
+version = "0.1.0"
+description = ""
+authors = ["Sean Xiang <sean.xiang@q-ctrl.com>"]
+readme = "README.md"
+packages = [{include = "codecov_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.3.2"
+pytest-cov = "^4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
