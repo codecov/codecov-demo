@@ -2,14 +2,14 @@ flag_management:
   individual_flags:
     - name: calc
       paths:
-        - api/calculator/
+        - api/something/
       statuses:
         - type: project
           target: 100%
           threshold: 1%
     - name: temp
       paths:
-        - api/temp/
+        - api/temp/calculator/
       statuses:
         - type: project
           target: 100%
