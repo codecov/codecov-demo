@@ -14,3 +14,13 @@ flag_management:
         - type: project
           target: 100%
           threshold: 1%
+coverage:
+  status:
+      project:
+        default: off
+        temp:
+          flags: 
+            - temp
+        calc:
+          flags: 
+            - calc
