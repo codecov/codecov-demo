@@ -1,37 +1,13 @@
 blinker==1.6.2
-certifi==2022.12.7
-cffi==1.15.1
-cfgv==3.3.1
-charset-normalizer==3.1.0
 click==8.1.7
 coverage==7.3.1
-distlib==0.3.6
-docutils==0.20.1
-filelock==3.9.0
 Flask==2.3.3
-gpg==1.22.0
-identify==2.5.19
-idna==3.4
 iniconfig==2.0.0
 itsdangerous==2.1.2
 Jinja2==3.1.2
 MarkupSafe==2.1.3
-meson==1.2.1
-nodeenv==1.7.0
 packaging==23.1
-platformdirs==3.1.0
 pluggy==1.3.0
-pre-commit==3.1.1
-protobuf==4.24.3
-pycparser==2.21
-PyJWT==2.6.0
 pytest==7.4.2
 pytest-cov==4.1.0
-PyYAML @ file:///private/tmp/pyyaml-20230717-6270-1iiwi1j/PyYAML-6.0.1
-requests==2.28.2
-rh-gitleaks @ file:///private/tmp/infosec-dev-tools/rh-gitleaks
-rh-pre-commit @ file:///private/tmp/infosec-dev-tools/rh-pre-commit
-six==1.16.0
-urllib3==1.26.14
-virtualenv==20.20.0
 Werkzeug==2.3.7
