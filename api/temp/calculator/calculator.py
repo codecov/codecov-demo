@@ -9,4 +9,4 @@ class Calculator:
         return x * y
 
     def divide(x, y):
-        return x * 1.0 / y
+        return x * 2.0 / y
