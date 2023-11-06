@@ -24,3 +24,6 @@ coverage:
         calc:
           flags: 
             - calc
+parsers:
+  cobertura:
+    partials_as_hits: true
