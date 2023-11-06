@@ -26,4 +26,5 @@ coverage:
             - calc
 parsers:
   cobertura:
+    handle_missing_conditions: true
     partials_as_hits: true

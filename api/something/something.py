@@ -1,8 +1,7 @@
 class Something:
-    def do_something(x):
-        if x > 0:
-            return x + 1
+    def do_something(self, x):
+        x = x + 1 if x > 0 else x
         return x
 
-    def do_something_else(x, y):
+    def do_something_else(self, x, y):
         return x * 2 - y
