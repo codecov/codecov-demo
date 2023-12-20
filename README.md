@@ -1,1 +1,1 @@
-[![codecov](https://codecov.io/gh/{{REPOSITORY}}/branch/main/graph/badge.svg)](https://codecov.io/gh/{{REPOSITORY}})
+[![codecov](https://codecov.io/gh/nisancx/codecov-demo/graph/badge.svg?token=38O73ISUTK)](https://codecov.io/gh/nisancx/codecov-demo)
