@@ -10,3 +10,6 @@ class Calculator:
 
     def divide(x, y):
         return x * 2.0 / y
+
+    def divide_more(x, y):
+        return x / y
