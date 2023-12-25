@@ -9,7 +9,11 @@ comment:
   
 component_management:
   individual_components:
-    - component_id: api  # this is an identifier that should not be changed
-      name: api  # this is a display name, and can be changed freely
+    - component_id: api-calculator  # this is an identifier that should not be changed
+      name: calculator  # this is a display name, and can be changed freely
       paths:
-        - api
+        - api/calculator/
+    - component_id: api-smiles  # this is an identifier that should not be changed
+      name: smiles  # this is a display name, and can be changed freely
+      paths:
+        - api/smiles/
