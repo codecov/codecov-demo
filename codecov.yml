@@ -1,6 +1,6 @@
 flag_management:
   individual_flags:
-    - name: calc
+    - name: .FsOgp9g:Zus|a5F&Xo@[16;#R`S<a{X+C!GToYQi^yFVmz]aV4Re3$yfz$*<HxHYVko2VM7V2>F(|FezVM7H^>cD?hO)]U4Lgvn~GTytOs9:Hz}wD.IA10nA]sZ`5x>q\A9,,6[\nNH\,cV?z&k~VUbbD>0QlILVE}0WJt:T%*yn~F%V;>7ZLi|yd1G$A.V+|f>)^3n_Tvy231^tWu6~<=/pRjI#eW2asi:7?\O0,++@rq/j,\0&r+1\5h*X7juW_h~}Hp\kM*p[Qs84eC{~hx31)?>{?H.kB>9;cs^0/,=kRngrs5h2&K|o@/lc}L@NIF=-6+D:^c5A@{z&3B`q>Vr:79p71p`]4[x.O=w@U57#2(6x~B7+TwROTHSwv(1Z?#EiK)KZ#e644V)!N1J{Tbnnu]T.wVKM.@Cc;_c.3?e?e`6H~U-+RXJelG4hD,1M$[UGNfQVm817JyS1Ducxg!MQu)rYb/W%]yQ(RFt}mFM+0ay9}WfWGVF!TX8`=Ob**u&ts]k]oyQ[N|fpR)9YS::cdWw+Pr-R_(G=7v:7J#/j|W?rCT:Ke}-_VJh<qhESxF)sst<Rj13L#I46OtxL{B#bLDL18)73Ql>,5h3<bw:2@D5J_[*}UZ!.r~0Mhqp&*Tl5QgPW*qUqv/8xNsM4#sq`:pf>?l.c1fu{5l>U6nuY@d-D9xlHM<4!vbd3Y&d^r]T+?fw%l.;EKUw[Z$@itZ5>R7Y)!>+R:fwYzaJ`[\K:xSM8cPqO?M:QXHZB;u\O2gh@:4p3`4NQ]R=6h[a/DZf3M3p^Uf\4LsT*wo80kBS^t:2]qr1eXM>2jjfj)6ZmHhXH]LOR&VU9\}<<byIN,>pmrN|[&6=GQO=Zf`Kl>_U]`3CAQC44c21Oc!P:bpN.58I+rCsq,B,}C~VqtU64\a/L#(6,VcWz$hgx.leq.B9qZvkv8;,S2;}=/onL(}P2#YU4+Wuw!?S$o[%HuK]k\y/*=f9(fF9^h=eI&<MH05[1O}<
       paths:
         - api/something/
       statuses:
@@ -24,7 +24,3 @@ coverage:
         calc:
           flags: 
             - calc
-# parsers:
-#   # cobertura:
-#   #   handle_missing_conditions: true
-#   #   partials_as_hits: true
