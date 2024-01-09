@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-python@v4
-        with:
-          python-version: ${{ matrix.python_version }}
+      with:
+        python-version: ${{ matrix.python_version }}
     - name: echo env vars
       run: echo $GITHUB_WORKFLOW $GITHUB_JOB $GITHUB_RUN_ATTEMPT $GITHUB_RUN_ATTEMPT $GITHUB_RUN_NUMBER
