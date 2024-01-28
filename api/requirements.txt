@@ -22,7 +22,6 @@ pytest==8.0.0
 pytest-cov==4.1.0
 tomli==2.0.1
 tox==4.6.4
-UNKNOWN @ file:///home/ba770/exg.app.ers.aml_derivatives_monitoring/ers-aml-main
 userpath==1.9.0
 virtualenv==20.24.2
 Werkzeug==3.0.1
