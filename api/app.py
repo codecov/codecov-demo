@@ -30,6 +30,7 @@ def operation(method, num_factors):
         factors.append(float(request.json.get('y')))
 
     return str(getattr(Calculator, method)(*factors))
+    
 
 
 app.run(host='0.0.0.0', port=8080)
