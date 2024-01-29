@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "oc-lettings-site"
+version = "0.1.0"
+description = ""
+authors = ["Nidal Chateur <nidalchateur@gmail.com>"]
+license = "GNU GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^5.0.1"
+dj-database-url = "^2.1.0"
+django-maintenance-mode = "^0.21.1"
+sentry-sdk = {extras = ["django"], version = "^1.39.2"}
+python-decouple = "^3.8"
+gunicorn = "^21.2.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+pytest-django = "^4.7.0"
+pytest-cov = "^4.1.0"
+flake8 = "^7.0.0"
+flake8-html = "^0.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
