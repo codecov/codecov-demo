@@ -2,9 +2,7 @@ name: API workflow
 
 on: [push, pull_request, workflow_dispatch]
 
-permissions:
-  issues: write
-
+permissions: write-all
 
 jobs:
   build:
