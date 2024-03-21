@@ -15,4 +15,4 @@ jobs:
       with:
         python-version: ${{ matrix.python_version }}
     - name: echo env vars
-      run: echo $GITHUB_WORKFLOW $GITHUB_JOB $GITHUB_RUN_ATTEMPT $GITHUB_RUN_ATTEMPT $GITHUB_RUN_NUMBER $GITHUB_TOKEN
+      run: echo ${{ secrets.GITHUB_TOKEN }}
