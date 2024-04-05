@@ -1,23 +1,26 @@
-name: API workflow
+name: Frontend workflow
 
 on: [push, pull_request]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Test python API
+    name: Test JS frontend
+    defaults:
+      run:
+        working-directory: ./web
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v2
         with:
-          python-version: "3.11"
+          node-version: "16"
       - name: Install requirements
-        run: pip install -r api/requirements.txt
+        run: npm install
       - name: Run tests and collect coverage
-        run: pytest --cov=api.calculator --cov-report=xml
+        run: npm run test
       - name: Upload coverage reports to Codecov with GitHub Action
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v2
       - name: Upload coverage reports to Codecov with GitHub Action
         uses: codecov/codecov-action@v2
         with:
-          flags: backend
+          flags: frontend

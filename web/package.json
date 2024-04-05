@@ -1,0 +1,20 @@
+{
+    "name": "web",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+      "test": "jest --collectCoverage",
+      "build": "babel --plugins @babel/plugin-transform-modules-commonjs script.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^0.25.0",
+      "express": "^4.17.2"
+    },
+    "devDependencies": {
+      "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+      "jest": "^27.4.7"
+    }
+  }
