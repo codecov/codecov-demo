@@ -1,0 +1,22 @@
+name: Frontend workflow
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Test JS frontend
+    defaults:
+      run:
+        working-directory: ./web
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+    - name: Install requirements
+      run: npm install
+    - name: Run tests and collect coverage
+      run: npm run test
+    - name: Upload coverage reports to Codecov with GitHub Action
+      uses: codecov/codecov-action@v2
