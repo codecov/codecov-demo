@@ -19,5 +19,7 @@ jobs:
       uses: codecov/codecov-action@v4.2.0
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v4
+    - name: Run tests and collect coverage for smiles
+      run: pytest --cov=api.smiles --cov-report=xml:smiles-coverage.xml
       env:
         CODECOV_TOKEN: 0c9ecb13-353a-4ecb-ace6-26bc7e6ea65b
