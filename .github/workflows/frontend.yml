@@ -1,9 +1,6 @@
 name: Frontend workflow
 
-on:
-  push:
-    paths:
-      - 'web/**'
+on: [push, pull_request]
 
 jobs:
   build:
