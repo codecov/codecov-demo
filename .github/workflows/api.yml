@@ -15,7 +15,7 @@ jobs:
       with:
         python-version: '3.10'
     - name: Install requirements
-      run: pip3 install -r api/requirements.txt
+      run: pip install -r api/requirements.txt
     - name: Run tests and collect coverage
       run: pytest --cov=./ --cov-report=xml
     - name: Upload coverage reports to Codecov with GitHub Action
