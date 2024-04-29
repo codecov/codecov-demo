@@ -5,6 +5,8 @@ coverage:
         target: 100%
         threshold: 1%
 
+        threshold: 1%
+
 comment:
   layout: "condensed_header, diff, flags, components"
 
