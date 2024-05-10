@@ -16,11 +16,13 @@ jobs:
     - uses: actions/setup-python@v4
       with:
         python-version: ${{ matrix.python_version }}
+    - name: rename the file
+      run: mv 1.txt ${{ matrix.python_version }}-1.txt
     - name: do the thing
       uses: actions/upload-artifact@v4
       with:
-        name: do_the_thing-${{ matrix.python_version }}.txt
-        path: 1.txt
+        name: do_the_thing-${{ matrix.python_version }}
+        path: ${{ matrix.python_version }}-1.txt
 
   later:
     needs: [build]
