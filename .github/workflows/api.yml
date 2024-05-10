@@ -1,6 +1,6 @@
 name: API workflow
 
-on: [push, pull_request, gworkflow_dispatch]
+on: [push, pull_request, workflow_dispatch]
 
 permissions: write-all
 
