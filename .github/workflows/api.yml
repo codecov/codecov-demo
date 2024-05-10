@@ -23,6 +23,7 @@ jobs:
         path: 1.txt
 
   later:
+    needs: [build]
     runs-on: ubuntu-latest
     name: do the other thing
     steps:
