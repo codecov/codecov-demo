@@ -33,5 +33,5 @@ jobs:
           path: artifact
           merge-multiple: true
           pattern: do_the_thing-*
-      - run: ls -R do_the_thing
+      - run: ls -R
 
