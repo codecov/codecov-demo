@@ -12,7 +12,7 @@ jobs:
       with:
         python-version: '3.10'
     - name: Install requirements
-      run: pip install -r api/requirements.txt
+      run: pip freeze > requirements.txt
     - name: Run tests and collect coverage
       run: pytest --cov=api.calculator --cov-report=xml
     - name: Upload coverage reports to Codecov with GitHub Action
