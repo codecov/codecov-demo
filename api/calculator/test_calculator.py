@@ -30,4 +30,4 @@ def test_divide():
     assert Calculator.divide(-4, 2.0) == -2.0
 
 def test_divide_by_0():
-    assert Calculator.divide(2.0, 0) == 'Cannot divide by 0'
+    assert Calculator.divide(2.0, 0) == 'Cannot divide by zero'
