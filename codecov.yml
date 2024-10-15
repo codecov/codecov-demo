@@ -4,3 +4,13 @@ coverage:
       default:
         target: 100%
         threshold: 1%
+
+comment:
+  layout: 'condensed_header, diff, flags, components'
+
+component_management:
+  individual_components:
+    - component_id: api
+      name: api
+      paths:
+        - api
