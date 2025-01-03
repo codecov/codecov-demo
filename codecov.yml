@@ -8,3 +8,4 @@ component_management:
       name: smiles # this is a display name, and can be changed freely
       paths:
         - api/smiles/
+y
