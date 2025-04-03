@@ -23,7 +23,7 @@ jobs:
           files: unit.coverage.xml
           flags: unit
       - name: Run integration tests and collect coverage
-        run: pytest --cov ---cov-report="xml:integration.coverage.xml" api/**/tests/integration
+        run: pytest --cov --cov-report="xml:integration.coverage.xml" api/**/tests/integration
       - name: Upload coverage reports to Codecov with GitHub Action
         uses: codecov/codecov-action@v5
         env:
