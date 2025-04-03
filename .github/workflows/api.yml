@@ -14,18 +14,20 @@ jobs:
       - name: Install requirements
         run: pip install -r api/requirements.txt
       - name: Run unit tests and collect coverage
-        run: pytest --cov --cov-report=xml api/**/tests/unit
+        run: pytest --cov --cov-report="xml:unit.coverage.xml" api/**/tests/unit
       - name: Upload coverage reports to Codecov with GitHub Action
         uses: codecov/codecov-action@v5
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
         with:
+          files: unit.coverage.xml
           flags: unit
       - name: Run integration tests and collect coverage
-        run: pytest --cov --cov-report=xml api/**/tests/integration
+        run: pytest --cov ---cov-report="xml:integration.coverage.xml" api/**/tests/integration
       - name: Upload coverage reports to Codecov with GitHub Action
         uses: codecov/codecov-action@v5
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
         with:
+          files: integration.coverage.xml
           flags: integration
